@@ -1,7 +1,9 @@
 # Heart Disease Classification #
-Generated using Copier template.
+**Проект**: Heart Disease Classification
 
-Author: Екатерина С.
+**Цель**: разработать и оценить модель машинного обучения, которая предсказывает наличие сердечного заболевания у пациента на основе клинических данных.
+
+**Автор**: Екатерина С.
 
 ## Structure
 
@@ -11,8 +13,14 @@ Author: Екатерина С.
 │   ├── raw/           # Исходные данные
 │   └── processed/     # Обработанные данные
 ├── notebooks/         # Jupyter notebooks
+├── reports/ 		   # Отчеты
 ├── src/               # Исходный код
-└── tests/			   # Тесты
+├── tests/			   # Тесты
+├── .gitignore
+├── .pre-commit-config.yaml
+├── Dockerfile
+├── pyproject.toml
+└── README.md
 ```
 
 ## Setup
