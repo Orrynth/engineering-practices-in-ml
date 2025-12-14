@@ -1,0 +1,16 @@
+### Project ###
+**/__pycache__/
+**/.ipynb_checkpoints/
+
+data/processed/*
+!data/processed/.gitkeep
+
+data/raw/*
+!data/raw/.gitkeep
+
+**/logs/
+*.log
+
+### Virtual environments ###
+**/.venv/
+**/venv/

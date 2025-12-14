@@ -17,9 +17,18 @@ Author: Екатерина С.
 
 ## Setup
 
+- установить pipx (рекомендуется)
+```
+python -m pip install --user pipx
+python -m pipx ensurepath
+```
+
 - установить необходимые для сетапа пакеты
 ```
-pip install copier poetry
+pipx install poetry
+pipx install copier
+pipx install pre-commit
+
 ```
 
 - создать проект через copier
@@ -40,7 +49,7 @@ poetry install
 
 - активировать виртуальное окружение
 ```
-poetry shell
+poetry env activate
 ```
 
 - установить pre-commit hooks
@@ -53,6 +62,6 @@ pre-commit install
 Чтобы собрать и запустить проект в Docker:
 
 ```
-docker build -t Heart Disease Classification .
-docker run -it --rm Heart Disease Classification
+docker build -t {{ project_name }} .
+docker run -it --rm {{ project_name }}
 ```
