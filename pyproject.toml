@@ -7,10 +7,12 @@ readme = "README.md"
 packages = [{ include = "src" }]
 
 [tool.poetry.dependencies]
-python = ">=3.10,<3.13"
+python = ">=3.11,<3.13"
 
 pandas = "^2.0.0"
 numpy = "^1.26.0"
+mlflow = "^3.7.0"
+scikit-learn = "^1.8.0"
 
 [tool.poetry.group.dev.dependencies]
 black = "^24.0.0"
