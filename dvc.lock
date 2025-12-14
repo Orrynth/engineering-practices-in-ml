@@ -1,0 +1,18 @@
+schema: '2.0'
+stages:
+  preprocess:
+    cmd: python src/preprocess.py
+    deps:
+    - path: data/raw/heart.csv
+      hash: md5
+      md5: 6481ed154d5b8ff83d7c09007aaa6ed0
+      size: 38114
+    - path: src/preprocess.py
+      hash: md5
+      md5: c4e64f9ebf86465e9ef4c0ce084bcce6
+      size: 225
+    outs:
+    - path: data/processed/heart_processed.csv
+      hash: md5
+      md5: 9a4b0c7695e4e947b17ab1f60248cd12
+      size: 11547

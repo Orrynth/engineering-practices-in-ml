@@ -11,6 +11,9 @@ data/raw/*
 **/logs/
 *.log
 
+### DVC remote storage ###
+dvc_storage/
+
 ### Virtual environments ###
 **/.venv/
 **/venv/
