@@ -36,7 +36,6 @@ python -m pipx ensurepath
 pipx install poetry
 pipx install copier
 pipx install pre-commit
-
 ```
 
 - создать проект через copier
