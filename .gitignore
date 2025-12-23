@@ -14,6 +14,11 @@ data/raw/*
 ### DVC remote storage ###
 dvc_storage/
 
+### Hydra outputs ###
+outputs/
+multirun/
+
+
 ### MLflow ###
 mlflow.db
 mlruns/
